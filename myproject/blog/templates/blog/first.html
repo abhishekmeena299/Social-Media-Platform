@@ -1,0 +1,57 @@
+{% extends "blog/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<!-- ADDITIONAL STYLING -->
+
+<style>
+  body{
+    background-color: #fff;
+  }
+</style>
+
+<div>
+    
+    <!-- Page Hero-->
+    <section class=" page-header page-header-light bg-white mt-4 container">
+      <div class="page-header-content pt-5">
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-lg-6 " data-aos="fade-up">
+                      <h1 style="" class="page-header-title font-weight-bold">CATERPILLAR : <br> Think, Explore, Meet </h1>
+                      <br>
+                      <p class="page-header-text mb-5">
+                        
+                        {% if user.is_authenticated %}
+                        Connect with people that inspires you to reach new heights. 
+                        {% else %}
+                        Join and Connect with people that inspires you to reach new heights. 
+                        <br>Sign up today and share your insights.
+                        {% endif %}
+                        <br>
+                        Developed by <a target="_blank" href="https://github.com/abhishekmeena299">Abhishek Meena</a>
+                        <br>
+                        <br> Features include
+                        <br> 1. User Authentication and Profiles <br> &emsp; - create your profile, follow people and make friends 
+                        <br> 2. Messaging and Chat <br> &emsp; - enjoy realtime private chatting
+                        <br> 3. News Feed and Content Sharing <br>&emsp; - share posts including photos, videos and links <br>&emsp; - like, share, comment on your friend's posts
+                      </p>
+                      {% if user.is_authenticated %}
+                        <a class="btn btn-lg btn-primary font-weight-bold mr-2 rounded-pill px-4 py-2" href="{% url 'blog-home' %}">Home</a>
+                        {% else %}
+                        <a class="btn btn-lg btn-primary font-weight-bold mr-2 rounded-pill px-4 py-2" href="{% url 'register' %}">REGISTER</a>
+                        <a class="btn btn-lg btn-primary-soft text-primary font-weight-bold" href="{% url 'account_login' %}">LOGIN</a>
+                        {% endif %}
+                  </div>
+                  <div class="col-lg-6 d-none d-lg-block" data-aos="fade-up" data-aos-delay="100"><img class="img-fluid" src="/static/blog/images/icon.png" /></div>
+              </div>
+          </div>
+      </div>
+      <br>
+    </section>
+
+</div>
+
+{% endblock %}
