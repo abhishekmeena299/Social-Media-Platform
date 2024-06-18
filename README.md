@@ -30,12 +30,12 @@ Social media web-application using Django for ArIES open project.
 5. Rename temp.env to .env
 6. Make Migrations and create a superuser:
    ```bash
-       (venv) pip manage.py makemigrations
-       (venv) pip manage.py migrate
-       (venv) pip manage.py runserver
+       (venv) python manage.py makemigrations
+       (venv) python manage.py migrate
+       (venv) python manage.py runserver
    ```
-7. Create a superuser: `(venv) pip manage.py createsuperuser `
-8. Ready to run: `(venv) pip manage.py runserver`  
+7. Create a superuser: `(venv) python manage.py createsuperuser `
+8. Ready to run: `(venv) python manage.py runserver`  
 
 ---
 ## Demo Video
