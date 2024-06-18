@@ -28,8 +28,14 @@ Social media web-application using Django for ArIES open project.
    ```
 4. Install dependencies: `(venv) pip install -r requirements1.txt`
 5. Rename temp.env to .env
-6. Create a superuser: `(venv) pip manage.py createsuperuser `
-7. Ready to run: `(venv) pip manage.py runserver`  
+6. Make Migrations and create a superuser:
+   ```bash
+       (venv) pip manage.py makemigrations
+       (venv) pip manage.py migrate
+       (venv) pip manage.py runserver
+   ```
+7. Create a superuser: `(venv) pip manage.py createsuperuser `
+8. Ready to run: `(venv) pip manage.py runserver`  
 
 ---
 ## Demo Video
