@@ -42,7 +42,7 @@ Social media web-application using Django for ArIES open project.
 
 ---
 ## Demo Video
-Link for demo video: 
+Link for demo video: https://youtu.be/Jx-Bk5Qv6Ak
 --
 Special Thanks to Corey Schafer : https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
 
