@@ -28,7 +28,7 @@ Social media web-application using Django for ArIES open project.
    ```
 4. Install dependencies: `(venv) pip install -r requirements1.txt`
 5. Rename temp.env to .env
-6. Make Migrations and create a superuser:
+6. Make Migrations :
    ```bash
        (venv) python manage.py makemigrations
        (venv) python manage.py migrate
@@ -41,4 +41,5 @@ Social media web-application using Django for ArIES open project.
 Link for demo video: 
 --
 Special Thanks to Corey Schafer : https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
+
 Chatting and major front-end work inspired from : https://github.com/Ronik22/Django_Social_Network_App
