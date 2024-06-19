@@ -12,6 +12,7 @@ Social media web-application using Django for ArIES open project.
 - share posts including photos, videos and links
 - like, share, comment on your friend's posts
 
+*3. Other Features*
 - extra features include notifications for likes, comments, etc.
 - ability to reply and like a comment as well its reply.
 - list all posts of a user, all liked and saved posts.
