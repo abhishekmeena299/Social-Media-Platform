@@ -1,6 +1,9 @@
 # Social-Media-Platform
 Social media web-application using Django for ArIES open project.
 
+## Demo Video
+Link for demo video: https://youtu.be/Jx-Bk5Qv6Ak
+
 ## Features:
 *1. User Authentication and Profiles:*
 - create your profile, follow people and make friends
@@ -39,10 +42,6 @@ Social media web-application using Django for ArIES open project.
    ```
 7. Create a superuser: `(venv) python manage.py createsuperuser `
 8. Ready to run: `(venv) python manage.py runserver`  
-
----
-## Demo Video
-Link for demo video: https://youtu.be/Jx-Bk5Qv6Ak
 --
 Special Thanks to Corey Schafer : https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
 
