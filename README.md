@@ -32,7 +32,6 @@ Social media web-application using Django for ArIES open project.
    ```bash
        (venv) python manage.py makemigrations
        (venv) python manage.py migrate
-       (venv) python manage.py runserver
    ```
 7. Create a superuser: `(venv) python manage.py createsuperuser `
 8. Ready to run: `(venv) python manage.py runserver`  
@@ -40,3 +39,6 @@ Social media web-application using Django for ArIES open project.
 ---
 ## Demo Video
 Link for demo video: 
+--
+Special Thanks to Corey Schafer : https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
+Chatting and major front-end work inspired from : https://github.com/Ronik22/Django_Social_Network_App
